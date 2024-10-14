@@ -1,0 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.SignalR; //required for data validation.
+
+namespace Maui.Models
+{
+    public int AdminID {get; set;} //primary key
+
+    public int AdminUsername {get; set;}
+
+    public int AccessLevel {get; set;} = 0;
+    
+}

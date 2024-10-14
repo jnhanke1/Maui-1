@@ -1,0 +1,4 @@
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.AssemblyInfoInputs.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.AssemblyInfo.cs
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.csproj.CoreCompileInputs.cache
