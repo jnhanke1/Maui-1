@@ -4,7 +4,7 @@ namespace Maui.Models
 {
 	public class UserDbContext : DbContext
 	{
-		public UserDbContextDbContext (DbContextOptions<UserDbContext> options)
+		public UserDbContext (DbContextOptions<UserDbContext> options)
 			: base(options)
 		{
 		}

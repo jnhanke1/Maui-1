@@ -13,7 +13,7 @@ using Microsoft.Net.Http.Headers;
 
 namespace Maui.Pages.Users
 {
-    public class IndexModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly ILogger<CreateModel> _logger;
         private readonly UserDbContext _context; 

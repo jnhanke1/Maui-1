@@ -1,0 +1,45 @@
+@page
+@model Maui.Pages.Users.CreateModel
+
+@{
+    ViewData["Title"] = "Create"; 
+}
+
+<h1>Create</h1>
+
+<p>
+    <a asp-page="Create">Create</a>
+</p>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="User.Username" class="control-label"></label>
+        <input asp-for="User.Username" class="form-control" />
+        <span asp-validation-for="User.Username" class="text-danger"></span>
+
+        <label asp-for="User.Email" class="control-label"></label>
+        <input asp-for="User.Email" class="form-control" />
+        <span asp-validation-for="User.Email" class="text-danger"></span>
+
+        <label asp-for="User.PhoneNumber" class="control-label"></label>
+        <input asp-for="User.PhoneNumber" class="form-control" />
+        <span asp-validation-for="User.PhoneNumber" class="text-danger"></span>
+
+        <label asp-for="User.Device" class="control-label"></label>
+        <input asp-for="User.Device" class="form-control" />
+        <span asp-validation-for="User.Device" class="text-danger"></span>
+
+        <label asp-for="User.TimeStamp" class="control-label"></label>
+        <input asp-for="User.TimeStamp" class="form-control" />
+        <span asp-validation-for="User.TimeStamp" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="Add" value="Create" class="btn btn primary" />
+    </div>
+</form>
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial")}
+    }
+
+

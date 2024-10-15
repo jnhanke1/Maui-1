@@ -6,3 +6,4 @@ C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\Maui\obj\Debug\net8.
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\Maui\obj\Debug\net8.0\Maui.RazorAssemblyInfo.cache
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\Maui\obj\Debug\net8.0\Maui.RazorAssemblyInfo.cs
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\Maui\obj\Debug\net8.0\Maui.csproj.AssemblyReference.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\Maui\obj\Debug\net8.0\Maui.sourcelink.json
