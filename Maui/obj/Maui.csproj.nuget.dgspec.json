@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj": {}
+    "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj": {
+    "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
+        "projectUniqueName": "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
         "projectName": "Maui",
-        "projectPath": "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
+        "projectPath": "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
         "packagesPath": "C:\\Users\\jessi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\obj\\",
+        "outputPath": "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
