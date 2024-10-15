@@ -3,10 +3,13 @@ using Microsoft.AspNetCore.SignalR; //required for data validation.
 
 namespace Maui.Models
 {
-    public int AdminID {get; set;} //primary key
+    public class Admin
+    {
 
-    public int AdminUsername {get; set;}
+        public int AdminID {get; set;} //primary key
 
-    public int AccessLevel {get; set;} = 0;
-    
+        public int AdminUsername {get; set;}
+
+        public int AccessLevel {get; set;} = 0;
+    }
 }

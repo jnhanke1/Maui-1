@@ -6,21 +6,28 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Maui.Models; 
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.SignalR;
-using Microsoft.Net.Http.Headers;
+
 
 namespace Maui.Pages.Users
 {
     public class CreateModel : PageModel
     {
+        private readonly Maui.Models.UserDbContext _context;
+        
         private readonly ILogger<CreateModel> _logger;
-        private readonly UserDbContext _context; 
+
+        public CreateModel(Maui.Models.UserDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult OnGet()
+        {
+            return Page();
+        }
 
         [BindProperty] // step 1 on forms - create property in page model. 
-
-        public Username Username{ get; set; } = default!; 
+        public UserName UserName{ get; set; } = default!; 
 
         [BindProperty]
         public Email Email{ get; set; } = default!; 

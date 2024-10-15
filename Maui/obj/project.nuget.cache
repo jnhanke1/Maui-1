@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gawvEUCCmv0=",
+  "dgSpecHash": "odtTXi9UId8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
+  "projectFilePath": "c:\\Users\\jessi\\Documents\\Jessica - College\\CIDM 4390\\Maui-1\\Maui\\Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jessi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jessi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

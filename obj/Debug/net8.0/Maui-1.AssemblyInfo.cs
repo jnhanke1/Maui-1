@@ -10,10 +10,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Maui_1-2be41b28-cbfc-41a4-9bf9-2980efd89447")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maui-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5ccf6b7e7b7b5e2dcc66e8e84f20c635a84bb1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maui-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maui-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

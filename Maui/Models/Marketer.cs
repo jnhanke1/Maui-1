@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.SignalR; //required for data validation.
 
 namespace Maui.Models
 {
+    public class Marketer
+    {
     public int TeamID {get; set;} //primary key
 
     [Required]
@@ -15,5 +17,5 @@ namespace Maui.Models
     [StringLength(100, MinimumLength = 7)]
     public string TargetAudience {get; set; } = string.Empty; 
 
-
+    }
 }

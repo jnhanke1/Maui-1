@@ -2,3 +2,9 @@ C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Mau
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.AssemblyInfoInputs.cache
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.AssemblyInfo.cs
 C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.csproj.CoreCompileInputs.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.csproj.AssemblyReference.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.RazorAssemblyInfo.cache
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.RazorAssemblyInfo.cs
+C:\Users\jessi\Documents\Jessica - College\CIDM 4390\Maui-1\obj\Debug\net8.0\Maui-1.sourcelink.json
