@@ -6,11 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddDbContext<UserDbContext>(options => 
+builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UserDbContext")));
 
 var app = builder.Build();
 
+//call Seed Data:
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

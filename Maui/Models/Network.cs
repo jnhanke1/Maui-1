@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.SignalR; //required for data validation.
+using System; 
+using System.Collections.Generic;
 
 namespace Maui.Models
 {

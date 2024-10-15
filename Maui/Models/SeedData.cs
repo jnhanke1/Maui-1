@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
+using System; 
+using System.Collections.Generic;
 
 namespace Maui.Models
 {
@@ -16,7 +18,8 @@ namespace Maui.Models
                     return; //DB has been seeded. 
                 }
 
-                context.Users.AddRange(
+                List<User> users = new List<User> {
+                
                     new User
                     {
                         UserName = "Elvis Presley", 
@@ -40,8 +43,8 @@ namespace Maui.Models
                         PhoneNumber = "555-888-1458", 
                         Device = "gajoinmwl4838433", 
                         TimeStamp = DateTime.Now,
-                    }
-                );
+                    }};
+                context.AddRange(users);
                 context.SaveChanges();
             }
         }
